@@ -1,5 +1,5 @@
 RailsBlogAtokatly::Application.routes.draw do
-  get '/' => 'posts#index'
+  get '/' => 'posts#new'
 end
 
 Rails.application.routes.draw do
